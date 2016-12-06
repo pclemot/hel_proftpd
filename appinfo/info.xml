@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<info>
+	<id>hel_proftpd</id>
+	<name>Authentication hook for ProFTPd</name>
+	<description>Update MySQL authentication table used by ProFTPd on user creation/deletion/update</description>
+	<licence>AGPL</licence>
+	<author>Pascal Clemot</author>
+	<namespace>Hel_Proftpd</namespace>
+	<dependencies>
+		<owncloud min-version="9.1" max-version="9.1" />
+	</dependencies>
+	<version>0.1.1</version>
+	<shipped>false</shipped>
+	<types>
+		<authentication/>
+		<prelogin/>
+	</types>
+	<ocsid>474747</ocsid>
+</info>
